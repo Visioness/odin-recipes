@@ -1,0 +1,83 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(255, 238, 238);
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.recipe-links li {
+    margin: 16px 0 16px 0;
+    color: rgb(100, 21, 36);
+    font-size: 24px;
+}
+
+.recipe-link,
+.home-link {
+    text-decoration: none;
+    padding: 4px 16px 4px 16px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 100, 100);
+}
+
+.home {
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px 16px 4px 16px;
+}
+
+.section-title,
+.section-subtitle,
+.title {
+    color: rgb(100, 21, 36);
+}
+
+.section-title {
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 16px;
+    border-bottom: 2px solid rgba(68, 23, 23, 0.404);
+}
+
+.section-subtitle {
+    padding-left: 10px;
+    font-size: 20px;
+    color: rgb(100, 21, 36); 
+}
+
+.section.steps,
+.section.ingredients,
+.section.description,
+.recipes {
+    border: 3px solid rgb(100, 21, 36);
+    border-radius: 32px;
+    margin: 8px 2px 8px 2px;
+    padding: 12px 32px 12px 32px;
+    background-color: rgb(250, 219, 227);
+}
+
+.section.image {
+    text-align: center;
+}
+
+.section.image img {
+    border: 3px solid rgb(100, 21, 36);
+    border-radius: 32px;
+}
+
+.section li,
+.section p {
+    font-size: 18px;
+    color: rgb(148, 45, 45);
+}
